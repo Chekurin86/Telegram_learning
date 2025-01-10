@@ -17,7 +17,6 @@ while counter < MAX_COUNTER:
     print('attempt =', counter)  #Чтобы видеть в консоли, что код живет
 
     updates = requests.get(f'{API_URL}{BOT_TOKEN}/getUpdates?offset={offset + 1}').json()
-    print(updates)
 
     if updates['result']:
         for result in updates['result']:
