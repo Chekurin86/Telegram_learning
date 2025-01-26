@@ -3,9 +3,7 @@ import random
 from aiogram import F, Dispatcher, Bot
 from aiogram.filters import Command, CommandStart
 from aiogram.types import Message
-from token_1 import TOKEN
-
-BOT_TOKEN = TOKEN
+from .env import BOT_TOKEN
 
 #Создаем объект бота и диспетчера
 bot = Bot(BOT_TOKEN)
