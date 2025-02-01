@@ -1,29 +1,27 @@
+from aiogram import Bot, Dispatcher
+from aiogram.types import Message
+from aiogram.filters import Command, BaseFilter
 from token_1 import TOKEN
-import requests
-import time
 
-API_URL = 'https://api.telegram.org/bot'
+# Вместо BOT TOKEN HERE нужно вставить токен вашего бота,
+# полученный у @BotFather
 BOT_TOKEN = TOKEN
-TEXT = 'Ура! Классный апдейт!'
-MAX_COUNTER = 100
 
-offset = -2
-counter = 0
-chat_id: int
+# Этот фильтр будет проверять наличие неотрицательных чисел
+#
+
+# Создаем объекты бота и диспетчера
+bot = Bot(token=BOT_TOKEN)
+dp = Dispatcher()
 
 
-while counter < MAX_COUNTER:
 
-    print('attempt =', counter)  #Чтобы видеть в консоли, что код живет
+if __name__ == '__main__':
+    dp.run_polling(bot)
 
-    updates = requests.get(f'{API_URL}{BOT_TOKEN}/getUpdates?offset={offset + 1}').json()
-    print(updates)
 
-    if updates['result']:
-        for result in updates['result']:
-            offset = result['update_id']
-            chat_id = result['message']['from']['id']
-            requests.get(f'{API_URL}{BOT_TOKEN}/sendMessage?chat_id={chat_id}&text={TEXT}')
 
-    time.sleep(1)
-    counter += 1
+
+
+
+# print(message.model_dump_json(indent=4, exclude_none=True))
