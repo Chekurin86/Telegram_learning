@@ -51,43 +51,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Keyboard_bot.executor": "Run",
-    "Python.bot_ugaday_chislo.executor": "Run",
-    "Python.bot_ugaday_chislo_multiplay.executor": "Run",
-    "Python.echo_bot.executor": "Run",
-    "Python.fsm_anketa_redis.executor": "Run",
-    "Python.fsm_bot.executor": "Run",
-    "Python.learning_telegram.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.menus.executor": "Run",
-    "Python.send_animal_photo_bot.executor": "Run",
-    "Python.special_keyboard_bot.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test1.executor": "Run",
-    "Python.translator_bot.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/maxim/PycharmProjects/Git_project/FSM_bot_for_server",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Keyboard_bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bot_ugaday_chislo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bot_ugaday_chislo_multiplay.executor&quot;: &quot;Run&quot;,
+    &quot;Python.echo_bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fsm_anketa_redis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fsm_bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.learning_telegram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menus.executor&quot;: &quot;Run&quot;,
+    &quot;Python.send_animal_photo_bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.special_keyboard_bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.translator_bot.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/maxim/PycharmProjects/Git_project/FSM_bot_for_server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ],
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "repository"
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FSM_bot_for_server" />
@@ -236,10 +236,10 @@
     <list>
       <item itemvalue="Python.bot_ugaday_chislo_multiplay" />
       <item itemvalue="Python.fsm_anketa_redis" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.fsm_bot" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.menus" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
@@ -302,7 +302,8 @@
       <workItem from="1738061999668" duration="9000" />
       <workItem from="1738291811050" duration="2355000" />
       <workItem from="1738319241842" duration="2317000" />
-      <workItem from="1738388905133" duration="3191000" />
+      <workItem from="1738388905133" duration="6442000" />
+      <workItem from="1738403233915" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Тест">
       <option name="closed" value="true" />
@@ -424,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738393020210</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Добавлен модуль с проектом для сервера">
+      <option name="closed" value="true" />
+      <created>1738393027189</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738393027189</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
